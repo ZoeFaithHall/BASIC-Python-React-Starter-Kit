@@ -1,0 +1,5 @@
+ariadne==0.24.0                # GraphQL server library
+Flask==2.3.2                   # Core Flask framework
+Flask-Cors==3.0.10             # Handle Cross-Origin Resource Sharing (CORS)
+gunicorn==21.2.0               # Production WSGI server (optional, for deployment)
+python-dotenv==1.0.0           # Environment variable management
