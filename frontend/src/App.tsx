@@ -1,50 +1,12 @@
-import React, { useState } from "react";
-import { gql, useQuery } from "@apollo/client";
-import WelcomePage from "./components/templates/WelcomePage";
-import MainPage from "./components/templates/MainPage";
+import React from "react";
 
-// GraphQL Query
-const HELLO_QUERY = gql`
-  query Hello($name: String!) {
-    hello(name: $name)
-  }
-`;
-
-const App: React.FC = () => {
-  const [name, setName] = useState("");
-  const [isNameSubmitted, setIsNameSubmitted] = useState(false);
-  const [isMainPageComplete, setIsMainPageComplete] = useState(false);
-
-  const { data, loading, error } = useQuery(HELLO_QUERY, {
-    variables: { name },
-    skip: !isNameSubmitted,
-  });
-
-  const handleNameSubmit = () => {
-    if (name.trim()) {
-      setIsNameSubmitted(true);
-    }
-  };
-
-  const handleMainPageComplete = () => {
-    setIsMainPageComplete(true);
-  };
-
-  if (!isNameSubmitted) {
-    return <WelcomePage name={name} setName={setName} onSubmit={handleNameSubmit} />;
-  }
-
-  if (!isMainPageComplete) {
-    return (
-      <MainPage
-      name={name}
-      data={data}
-      loading={loading}
-      error={error}
-      onComplete={handleMainPageComplete}
-    />
-    );
-  }
-};
+function App() {
+  return (
+    <div style={{ padding: "20px", textAlign: "center" }}>
+      <h1>Welcome to the Python-React Starter Kit</h1>
+      <p>Edit <code>App.js</code> and save to reload.</p>
+    </div>
+  );
+}
 
 export default App;
