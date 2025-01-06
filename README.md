@@ -10,7 +10,7 @@ Looking for advanced features and tools to accelerate your development process? 
 - Optimized production-ready setup
 - Best practices for testing, CI/CD, and deployment
 
-👉 [Learn more and get the Premium Starter Kit now!](https://github.com/ZoeFaithHall/Premium-Python-React-Starter-Kit)
+👉 [Learn more and get the Premium Starter Kit now!](https://zoefhall.gumroad.com/)
 
 # Python-React Starter Kit
 
