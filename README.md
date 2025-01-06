@@ -2,7 +2,7 @@
 
 Looking for advanced features and tools to accelerate your development process? Check out the **[Premium Python-React Starter Kit](https://github.com/ZoeFaithHall/Premium-Python-React-Starter-Kit)**!
 
-![Upgrade to Premium]([link-to-banner-image](https://github.com/ZoeFaithHall/README/blob/77e1cd1aa36be36f8a2ba037eaad58c55d30061d/Premium-Python-React-Starter-Kit.png))
+![Upgrade to Premium](https://github.com/ZoeFaithHall/README/blob/77e1cd1aa36be36f8a2ba037eaad58c55d30061d/Premium-Python-React-Starter-Kit.png)
 
 ### Premium Features:
 - Full integration with GraphQL and Ariadne
